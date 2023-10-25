@@ -5,40 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-book Oasis</title>
-    <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="css/normalize.css" />
-    <!-- Font Awesome Library -->
     <link rel="stylesheet" href="css/all.min.css" />
-    <!-- Main Template CSS File -->
     <link rel="stylesheet" href="css/oasis.css" />
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <!-- Start Header -->
     <header>
       <div class="container">
         <a href="#" class="logo">
           <img src="images/logo.png" alt="Logo" />
         </a>
-        <nav>
-          <i class="fas fa-bars toggle-menu"></i>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="oasis.html">Oasis</a></li>
-            <li><a class="active" href="about.html">About</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+        <nav class="navBar">
+        
+            <button><i class="fas fa-bars toggle-menu"></i></button>
+            <div class="links">
+
+              <ul>
+                <li><a  class="mark"  href="index.html">Home</a></li>
+                <li><a class="mark" href="faq.html">FAQ</a></li>
+                <li><a class="mark" href="oasis.html">Oasis</a></li>
+                <li><a class="activer" class="mark" href="about.html">About</a></li>
+                <li><a class="mark" href="pricing.html">Pricing</a></li>
+                <li><a class="mark" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          
           <div class="form">
             <i class="fas fa-search"></i>
           </div>
         </nav>
       </div>
     </header>
-    <!-- End Header -->
     <div class="all-ab">
       <div class="about">
         <div class="container">
@@ -143,8 +142,6 @@
 
     </div>
   
-   
-    <!-- End Quote -->
     
     <div class="footer">
       <div class="container">
@@ -159,6 +156,7 @@
 
       </div>
     </div>
-    <!-- End Footer -->
+    <script src="main.js"></script>
+
   </body>
 </html>
